@@ -10,7 +10,7 @@ app.use('/js', express.static(__dirname + 'public/js'));
 app.use('/img', express.static(__dirname + 'public/img'));
 
 //listen for requests
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 
 app.get('/', (req, res) => {
     res.sendFile('./views/index.html', { root: __dirname });
