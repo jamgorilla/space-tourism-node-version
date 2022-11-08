@@ -10,6 +10,9 @@
     background-image: url("../assets/destination/background-destination-tablet.jpg");
   }
 }
+.destination-greeting {
+  margin-top: 100px;
+}
 
 //////////////tablet///////////////
 @media (min-width: $tablet) and (max-width: $desktop) {

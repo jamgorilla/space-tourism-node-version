@@ -67,6 +67,9 @@ $mobile: 375px;
   //   --side-border-padding: 1.5rem;
   //   --desk-side-border-padding: 5rem;
 
+  //global margin top
+  --global-margin-top: 200px;
+
   @media (max-width: $tablet) {
     --fs-h2: 80px;
     --fs-h3: 40px;

@@ -16,7 +16,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin: 100px auto 0px auto;
+    margin: var(--global-margin-top) auto 0px auto; 
   }
 }
 

@@ -1,3 +1,15 @@
+# INSTRUCTIONS TO RUN APP
+
+Navigate to space-tourism-node-version
+
+Then type -> nodemon app.js
+
+Once your in you have to make sure the Live Sass Compiler is saving to the correct path as there are two
+
+Click the gear in the bottom left of the VSC window then go to Live Sass Compiler
+
+Live Sass Compiler Settings > Formats > Then click to edit json file
+
 # Frontend Mentor - Space tourism website solution
 
 This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects.

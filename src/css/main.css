@@ -141,7 +141,6 @@ select {
   /* border radius */
   --br: 0.5rem;
   /* left and right side padding */
-  --global-margin-top: 200px;
 }
 @media (max-width: 768px) {
   :root {
@@ -399,7 +398,7 @@ li:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin: var(--global-margin-top) auto 0px auto;
+    margin: 100px auto 0px auto;
   }
 }
 .home-pre-title {
@@ -413,7 +412,7 @@ li:hover {
 }
 
 .home-explore-btn {
-  color: black;
+  color: red;
   background-color: white;
   height: 150px;
   width: 150px;
@@ -438,10 +437,6 @@ li:hover {
   .body-destination {
     background-image: url("../assets/destination/background-destination-tablet.jpg");
   }
-}
-
-.destination-greeting {
-  margin-top: 100px;
 }
 
 @media (min-width: 768px) and (max-width: 1440px) {
@@ -519,10 +514,6 @@ li:hover {
   .body-crew {
     background-image: url("../assets/crew/background-crew-tablet.jpg");
   }
-}
-
-.container-change-order {
-  margin-top: var(--global-margin-top);
 }
 
 .crew-image {
