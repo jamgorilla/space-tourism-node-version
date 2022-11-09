@@ -11,7 +11,7 @@ document.write(`<div class="nav-container">
 <ul class="nav-menu">
   <li><span class="nav-span">00</span><a href="views/index.html"> Home</a></li>
   <li><span class="nav-span">01</span><a href="views/destination.html"> Destination</a></li>
-  <li><span class="nav-span">02</span><a href="./crew.html"> Crew</a></li>
+  <li><span class="nav-span">02</span><a href="views/crew.html"> Crew</a></li>
   <li><span class="nav-span">03</span><a href="views/technology.html"> Technology</a></li>
 </ul> 
 `);
