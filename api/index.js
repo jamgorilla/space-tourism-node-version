@@ -13,6 +13,10 @@ app.get('/api/item/:slug', (req, res) => {
   res.end(`Item: ${slug}`);
 });
 
+app.get('/', (req, res) => {
+    res.sendFile('../views/index.html', { root: __dirname });
+});
+
 app.get('/views/:file', (req, res) => {
     const file = req.params.file;
     res.sendFile(`../views/${file}.html`, { root: __dirname });
