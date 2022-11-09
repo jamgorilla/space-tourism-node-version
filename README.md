@@ -46,7 +46,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://space-tourism-node.herokuapp.com/)
+- Solution URL: https://space-tourism-node-version.vercel.app/views/
 
 ## My process
 
@@ -64,7 +64,7 @@ Users should be able to:
 ### What I learned
 
 Using a JSON data file and template literals to inject html for the various pages
-Used Heroku to deploy as the site is dynamic so github pages would not work
+Used Heroku to deploy as the site is dynamic so github pages would not work. Switched to Vercel in November after Heroku disabled free accounts.
 Learned to use routing in express
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
